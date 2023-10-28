@@ -1,0 +1,393 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Phase 1 : 
+		core java / DS 
+			basics of programming : statemts (if,else , switch ), loops, jumpiung 
+			data ytypes , operators 
+			OOPS :inheritanc , polymorhism , Abstraction , Encupulation
+			Exception handing 
+			multyThreading 
+			Collections 
+			JDBC 
+phase 2 : 
+			JDBC , 
+			Servlet 		: html , css
+			JSP 
+			MYSQL 
+			JSTL 
+			Hibernate, maven 
+Phase 3: 
+			Spring Freamwork 
+				Core 
+				Hibernate 
+				MVC 
+				AOP 
+					Boot:
+						Web
+						Data JPA 
+						Rest API
+						Spring JDBC
+						Security 
+						Cloud 
+						batch
+					have to explore more 
+Phase 4: 
+
+		 html , css, JS 
+
+
+		HTML 		: only Static web page 
+		CSS		: with style (look and feel )
+		JS 		: Logical part 
+		Angualr :
+
+Js : 
+		java Script : 
+	
+		Angualr 	JS 
+		React 		JS
+		node js 	JS
+		express js 	JS
+		vew JS 		JS
+		venillaJS 	JS
+		backbon JS 	JS
+		next JS 	JS
+		etc..................!
+
+
+
+		JAVA 							JAVA Script ? 
+
+
+		Programing 						Scripting lang 
+
+		Compile 						
+			run 						run 
+
+	
+		Slow + high Security 					Fast 
+
+
+
+		Server coding lang 					Clinet side 
+
+
+									Client+ Server 
+
+
+
+
+
+Full Stack 
+
+			JAVA  Full stack 		Python 			.net 			MEAN			MERN
+
+
+Front End 
+			html 				html 			html
+			css				css			css
+			java script			js			js--------------------->Angular JS		React
+
+
+
+midlware 
+			Java 				Python 			.net
+
+			1 ) jdbc--servlet/jsp			django/ flask 		ASP/ADO 	ExpressJS		Exprs	
+			2 ) hibernate-Spring MVC  
+			3 ) JPA ---Spring Web  : tomcat 
+
+
+	SERVER : 		Tomcat 			HTTP			IISS			Nodejs			node	        								
+
+Back end 
+			DataBase: SQL 			SQL 			SQL 			MongoDB			mongdb
+				mysql 
+				Oracle 
+				SQl server 
+
+
+
+
+Phase 4 : 
+
+
+Html 
+CSS
+javaScript 
+	Typescript 
+
+		Angualr JS 
+
+
+
+Tools
+
+	VS code			: https://code.visualstudio.com/download
+		 Node JS 	:https://nodejs.org/en/download
+	PostMan : Api testing   :https://www.postman.com/downloads/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+font -size 
+font style 
+color  : 
+	Color name 
+	RGB : Red Blue Green 
+	hexa Decimal Values 
+
+Types os css 
+		inline Style Sheet 
+		internal Style Sheet  <style > in head 
+		External Style Sheet : demo.css 
+							 <link href="" rel="">
+
+bgcolor="yellow"
+
+ body{
+            background-image: url('ibm.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: red;
+            background-attachment: fixed;
+        }
+div{
+          background-color: yellow;
+          /* border: 5px;
+          border-style: double;
+          border-color: red; */
+          border: 5px solid red;
+          border-radius: 20px;
+
+          /* padding-top: 50px;
+          padding-bottom: 100px;
+          padding-left: 50px;
+          padding-right: 100px; */
+          padding: 50px;
+
+          /* margin-top: 100px;
+          margin-left: 50px;
+          margin-right: 50px; */
+
+          margin: 100px;
+          height: 200px;
+          overflow: scroll;
+        }
+				5 minuts exploreeee
+
+
+	
+Grid system : 
+	12 
+		4-4-4
+		2-8-2
+		1-10-1
+		9-2-1
+COlor: 
+	text
+	bg 
+	btn 
+
+button 
+forms 
+corosul 
+nav 
+table 
+
+pagination 
+spinner 
+progress bar 
+card 
+Glypicon 
+
+
+
+
+Angualr : 
+		install and configure 
+	Component 
+	Routing
+
+	Data Binding 
+	Directive 
+	Pipes 
+	forms 
+	Life Cycle Hooks 
+	Services 
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+========================================
+app.comoponent. html 
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">SwigFoodApp</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Food<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Vegitarian</a></li>
+          <li><a href="#">Non vegitarian</a></li>
+          <li><a href="#">Cool Drinks </a></li>
+        </ul>
+      </li>
+      <li><a href="#">Restorient</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+  <h3>Right Aligned Navbar</h3>
+  <p>The .navbar-right class is used to right-align navigation bar buttons.</p>
+</div>
+==================================================
+
+index.html
+=====================================================
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swigyfoodapp</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>
+
+=======================================================================
+Routing 
+
+	1  step : insted of href: we have to routerLink=""
+	2 stpe : use router-outlet
+	3 step : configur in routing file 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+

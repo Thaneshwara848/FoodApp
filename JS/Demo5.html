@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function abc(){
+
+           fn = document.getElementById('fn').value;
+           ln = document.getElementById('ln').value;
+
+           full = fn + ln ;
+
+           document.getElementById('fullname').value=full;
+        }
+       
+        function xyz(){
+            document.getElementById('fn').style.backgroundColor="red"
+        }
+
+        function bgclr(value){
+            if(value=='red'){
+                    document.getElementById('bg').style.backgroundColor=value;
+            }
+            else  if(value=='yellow'){
+                    document.getElementById('bg').style.backgroundColor=value;
+            }
+            else  if(value=='blue'){
+                    document.getElementById('bg').style.backgroundColor=value;
+            }
+            else  if(value=='pink'){
+                    document.getElementById('bg').style.backgroundColor=value;
+            }
+        }
+    </script>
+</head>
+<body id="bg">
+    <marquee onmouseover="stop()" onmouseout="start()"><H1>HI Welcome to Web Page  </H1></marquee>
+    <form action="">
+       First name : <input type="text"  id="fn" onblur="xyz()"><br>
+       last name  : <input type="text"  id="ln"><br>
+       Full name : <input type="text"  id="fullname" onfocus="abc()"><br>
+        <input type="button" value="CLICK" onclick="abc()">
+        <input type="button" value="Double CLICK" ondblclick="abc()">
+        COLOR: 
+        <select onchange="bgclr(value)">
+            <option>COLOR</option>
+            <option value="red">RED</option>
+            <option value="yellow">Yellow</option>
+            <option value="blue"><Btn>Blue</Btn></option>
+            <option value="pink">Pink</option>
+
+        </select>
+    </form>
+</body>
+</html>
+<!-- 
+onfocus
+onblue
+onclick
+ondblclick
+
+onmouseover
+onmouseout
+
+onchage 
+onselect 
+onsubmit  -->
+
+
+
+
+   
