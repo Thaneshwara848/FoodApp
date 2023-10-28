@@ -295,11 +295,21 @@ Angualr :
 	Routing
 
 	Data Binding 
+		event binding 
+			 (click)
+				(change)
+		interpolation  {{ }}
+		property binding
+
 	Directive 
+		ngIf, ngFor, ngSwitch , 
 	Pipes 
 	forms 
+		templet Driven Form 
+		Reactve Driven from 
 	Life Cycle Hooks 
 	Services 
+		
 	
 	
 
